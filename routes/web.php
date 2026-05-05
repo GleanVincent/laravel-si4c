@@ -7,7 +7,7 @@ use App\Http\Controllers\beritaController;
 use App\Http\Controllers\ProdiController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('fakultas.create');
 });
 
 Route::resource('fakultas', FakultasController::class);
