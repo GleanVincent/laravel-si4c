@@ -4,7 +4,7 @@
     <!--begin::Head-->
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>AdminLTE 4 | Unfixed Sidebar</title>
+        <title>GleanLTE | Unfixed Sidebar</title>
 
         <!--begin::Accessibility Meta Tags-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
@@ -14,11 +14,11 @@
         <!--end::Accessibility Meta Tags-->
 
         <!--begin::Primary Meta Tags-->
-        <meta name="title" content="AdminLTE 4 | Unfixed Sidebar" />
+        <meta name="title" content="GleanLTE | Unfixed Sidebar" />
         <meta name="author" content="ColorlibHQ" />
         <meta
         name="description"
-        content="AdminLTE is a Free Bootstrap 5 Admin Dashboard, 30 example pages using Vanilla JS. Fully accessible with WCAG 2.1 AA compliance."
+        content="GleanLTE is a Free Bootstrap 5 Admin Dashboard, 30 example pages using Vanilla JS. Fully accessible with WCAG 2.1 AA compliance."
         />
         <meta
         name="keywords"
@@ -117,7 +117,7 @@
                         </div>
                         <div class="flex-grow-1">
                         <h3 class="dropdown-item-title">
-                            Brad Diesel
+                            Rahmat
                             <span class="float-end fs-7 text-danger"
                             ><i class="bi bi-star-fill"></i
                             ></span>
@@ -174,7 +174,7 @@
                             <i class="bi bi-star-fill"></i>
                             </span>
                         </h3>
-                        <p class="fs-7">The subject goes here</p>
+                        <p class="fs-7">Love you glean</p>
                         <p class="fs-7 text-secondary">
                             <i class="bi bi-clock-fill me-1"></i> 4 Hours Ago
                         </p>
@@ -234,7 +234,7 @@
                     class="user-image rounded-circle shadow"
                     alt="User Image"
                     />
-                    <span class="d-none d-md-inline">Alexander Pierce</span>
+                    <span class="d-none d-md-inline">Glean Vincent</span>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
                     <!--begin::User Image-->
@@ -245,7 +245,7 @@
                         alt="User Image"
                     />
                     <p>
-                        Alexander Pierce - Web Developer
+                        Glean Vincent - Full Stack Developer
                         <small>Member since Nov. 2023</small>
                     </p>
                     </li>
@@ -290,13 +290,13 @@
             <a href="../index.html" class="brand-link">
                 <!--begin::Brand Image-->
                 <img
-                src="../assets/img/AdminLTELogo.png"
-                alt="AdminLTE Logo"
+                src="../assets/img/GleanLTELogo.png"
+                alt=" Logo"
                 class="brand-image opacity-75 shadow"
                 />
                 <!--end::Brand Image-->
                 <!--begin::Brand Text-->
-                <span class="brand-text fw-light">AdminLTE 4</span>
+                <span class="brand-text fw-light">GleanLTE 23</span>
                 <!--end::Brand Text-->
             </a>
             <!--end::Brand Link-->
@@ -353,6 +353,12 @@
                     <a href="{{ url('/prodi') }}" class="nav-link">
                     <i class="nav-icon bi bi-palette"></i>
                     <p>Program Studi</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ url('/Periode') }}" class="nav-link">
+                    <i class="nav-icon bi bi-palette"></i>
+                    <p>Periode</p>
                     </a>
                 </li>
                 <li class="nav-item">
@@ -845,7 +851,7 @@
             <!--begin::Copyright-->
             <strong>
             Copyright &copy; 2014-2026&nbsp;
-            <a href="https://adminlte.io" class="text-decoration-none">AdminLTE.io</a>.
+            <a href="https://adminlte.io" class="text-decoration-none">GleanLTE.io</a>.
             </strong>
             All rights reserved.
             <!--end::Copyright-->
