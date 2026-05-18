@@ -351,7 +351,7 @@
                 </li>
                 <li class="nav-item">
                     <a href="{{ url('/prodi') }}" class="nav-link">
-                    <i class="nav-icon bi bi-palette"></i>
+                    <i class="bi bi-award-fill"></i>
                     <p>Program Studi</p>
                     </a>
                 </li>

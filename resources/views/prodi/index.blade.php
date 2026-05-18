@@ -2,6 +2,7 @@
 @section('title', 'Program Studi')
 @section('content')
 <h1>Data Prodi</h1>
+<a href="{{ route('prodi.create') }}" class= "btn btn-primary mb-3">Tambah Program Studi</a>
 
 <table border="1" cellpadding="10">
     <tr>

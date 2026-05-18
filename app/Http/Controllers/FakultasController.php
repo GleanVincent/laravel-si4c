@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\fakultas;
+use App\Models\Fakultas;
 use Illuminate\Http\Request;
 
 class FakultasController extends Controller
@@ -12,8 +12,8 @@ class FakultasController extends Controller
      */
     public function index()
     {
-        // akses model falkutas 
-        $result = fakultas::all(); // select * from fakultas
+        // akses model fakultas 
+        $result = Fakultas::all(); // select * from fakultas
         //dd($result); // dump data
         // kirim data fakultas ke view menggunakan with
         //return view('fakultas.index')->with('fakultas', $result);
@@ -43,7 +43,7 @@ class FakultasController extends Controller
         ]);
 
         // simpan data ke database
-        fakultas::create($input);
+        Fakultas::create($input);
 
 
         // rdirect ke halaman index fakultas
@@ -53,7 +53,7 @@ class FakultasController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(fakultas $fakultas)
+    public function show(Fakultas $fakultas)
     {
         //
     }
@@ -61,7 +61,7 @@ class FakultasController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(fakultas $fakultas)
+    public function edit(Fakultas $fakultas)
     {
         //
     }
@@ -69,7 +69,7 @@ class FakultasController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, fakultas $fakultas)
+    public function update(Request $request, Fakultas $fakultas)
     {
         //
     }
@@ -77,7 +77,7 @@ class FakultasController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(fakultas $fakultas)
+    public function destroy(Fakultas $fakultas)
     {
         //
     }
