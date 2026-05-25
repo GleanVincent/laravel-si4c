@@ -53,7 +53,8 @@ class PeriodeController extends Controller
      */
     public function edit(Periode $periode)
     {
-        //
+        return view('periode.edit', compact('periode'));
+
     }
 
     /**

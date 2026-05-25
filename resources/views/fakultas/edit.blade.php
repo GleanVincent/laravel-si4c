@@ -13,7 +13,7 @@
         </div>
         <div class="form-group">
             <label for="singkatan">Singkatan</label>
-            <input type="text" name="singkatan" id="singkatan" class="form-control" value="{{ old('singkatan') ?? $fakultas->singkatan }}">
+            <input type="text" name="singkatan" id="singkatan" class="form-control"  value="{{ old('singkatan') ?? $fakultas->singkatan }}">
             @error('singkatan')
                 <div class="text-danger">{{ $message }}</div>
             @enderror        

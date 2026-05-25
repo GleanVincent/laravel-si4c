@@ -23,8 +23,9 @@
                 <td>{{ $item->nama }}</td>
                 <td>{{ $item->singkatan }}</td>
                 <td>{{ $item->dekan }}</td>
-                <td>
-                    <a href="{{ route('fakultas.edit', $item->id) }}" class="btn btn-sm btn-warning btn-rounded">Edit</a> --               
+                <td class="d-flex d-inline gap-2">
+                    <a href="{{ route('fakultas.edit', $item->id) }}" class="btn btn-sm btn-warning btn-rounded">Edit</a>
+                    
                     <form method="POST" action="{{ route('fakultas.destroy', $item->id) }}">
                         @csrf
                         <input name="_method" type="hidden" value="DELETE">
