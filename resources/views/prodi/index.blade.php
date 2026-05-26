@@ -4,7 +4,7 @@
 <h1>Data Prodi</h1>
 <a href="{{ route('prodi.create') }}" class= "btn btn-primary mb-3">Tambah Program Studi</a>
 
-<table border="1" cellpadding="10">
+<table border="1" cellpadding="10" cellspacing="0" class="table table-hover table-border">
     <tr>
         <th>No</th>
         <th>Nama Prodi</th>

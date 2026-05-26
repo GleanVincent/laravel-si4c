@@ -9,7 +9,7 @@ class Mahasiswa extends Model {
     protected $fillable = [
     'npm',
     'nama',
-    'prodi',
+    'prodi_id',
     'foto'
     ];
     

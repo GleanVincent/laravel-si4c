@@ -4,9 +4,8 @@
 <h1>Data Mahasiswa</h1>
 <a href="{{ route('mahasiswa.create') }}" class= "btn btn-primary mb-3">Tambah Mahasiswa</a>
 
-<table border="1" cellpadding="10">
+<table border="1" cellpadding="10" cellspacing="0" class="table table-hover table-border">
     <tr>
-        <th>No</th>
         <th>Nama</th>
         <th>NPM</th>
         <th>Prodi</th>
